@@ -7,8 +7,8 @@ public class Task_18 {
         int firstNumb = input.nextInt();
         System.out.println("put first binary number");
         int secondNumb = input.nextInt();
-         int result = Math.(firstNumb,secondNumb);
-        System.out.println(multiply(Integer.toBinaryString(firstNumb),  Integer.toBinaryString(secondNumb)) );
-    }
+      int result = firstNumb*secondNumb;
+      System.out.println(Integer.toBinaryString(result) + "=" + (Integer.toBinaryString(firstNumb) + "*" +  Integer.toBinaryString(secondNumb)) );
+   }
 
 }
